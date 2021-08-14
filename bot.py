@@ -8,13 +8,13 @@ import logging, traceback
 
 # vars
 
-chat_id = -1001438700057
+chat_id = -1001509450387
 
 main_channel =  '@anime_moviez'
 
 sudo_users = [1693064520, 998194558, 1714843499, 979499093]# add your allowed user's IDs
 
-bot = Client(':memory:', api_id=4096095, api_hash='ee23f0263914225a7c195f92917cce8e', bot_token='1935260085:AAH6NzoIKhMO_I-TX98eczR5E2xCQziwqxM')
+bot = Client(':memory:', api_id=4096095, api_hash='ee23f0263914225a7c195f92917cce8e', bot_token='1966163562:AAGzejtFkOlGDZpORzjkWiBUdzc_V_ycedk')
 
 @bot.on_message(filters.media & filters.user(sudo_users))
 
