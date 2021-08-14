@@ -10,7 +10,7 @@ import logging, traceback
 
 chat_id = -1001509450387
 
-main_channel =  '@anime_moviez'
+main_channel =  '@Movie_Backup_Channel'
 
 sudo_users = [1693064520, 998194558, 1714843499, 979499093]# add your allowed user's IDs
 
