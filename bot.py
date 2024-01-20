@@ -14,7 +14,7 @@ main_channel =  '@Movie_Backup_Channel'
 
 sudo_users = [1693064520, 998194558, 1714843499, 979499093]# add your allowed user's IDs
 
-bot = Client(':memory:', api_id=4096095, api_hash='ee23f0263914225a7c195f92917cce8e', bot_token='1966163562:AAGzejtFkOlGDZpORzjkWiBUdzc_V_ycedk')
+bot = Client(':memory:', api_id={}, api_hash={}, bot_token={})
 
 @bot.on_message(filters.media & filters.user(sudo_users))
 
